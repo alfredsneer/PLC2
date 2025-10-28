@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>MANUAL LOGO</title>
+    </head>
+    <body>
+        <h1 id="0"> MANUAL DE FUNCIONES ESPECIALES LOGO SOFT </h1>
+        <h3>ALFREDO FILOMENO GONZÁLEZ PÉREZ</h3>
+        <h3>DANIEL JIMÉNEZ DE LA PAZ</h3>
+        <p>A continuación se mostrarán ejercicios de las funciones especiales de LOGO SOFT</p>
+        <h2 id="1"><b>RETARDO A LA CONEXIÓN</b></h2>
+        <img src="http://codigoelectronica.com/b/oscardevops/images/2019/10/im-logosoft-retardo-a-la-conexion.jpg" width="200" height="100"/>
+        <p>Mediante el retardo a la conexión se conecta la salida sólo
+        tras un tiempo parametrizable.</p>
+        <p>Si el estado de la entrada Trg cambia de 0 a 1, comienza a
+ transcurrir el tiempo Ta (Ta es el tiempo actual en LOGO! ).
+ Si el estado de la entrada Trg permanece a 1 por lo menos
+ mientras dura el tiempo parametrizado T, la salida cambia
+ a 1 al terminar el tiempo T (la salida es activada posterior
+mente a la entrada).
+ Si el estado de la entrada Trg vuelve a cambiar a cero an
+tes de que finalice el tiempo T, el tiempo se resetea.
+ La salida se repone nuevamente a 0 si la entrada Trg se
+ halla a 0.
+ Si la remanencia no está activada, al producirse un corte
+ de alimentación de red la entrada Q y el tiempo ya trans
+currido se resetea.</p> 
+        <h3>Ejercicio 1</h3>
+        <p></p>
+        <p></p>        
+        <h3>Ejercicio 2</h3>
+        <p></p>
+        <h3>Ejercicio 3</h3>
+        <p></p>
+        <h2 id="2"><b>RETARDO A LA DESCONEXIÓN</b></h2>
+        <img src="http://codigoelectronica.com/b/oscardevops/images/2019/10/im-logosoft-retardo-a-la-conexion-ejemplo-1.jpg" width="200" height="100"/>
+        <p>En el retardo a la desconexión se desactiva la salida sólo
+        tras un tiempo parametrizable.</p>
+        <p>Cuando la entrada Trg ocupa el estado 1, la salida Q se
+ conmuta inmediatamente al estado 1.
+ Si el estado de Trg pasa de 1 a 0, en LOGO! se inicia de
+ nuevo el tiempo actual Ta, la salida permanece activada.
+ Cuando Ta alcanza el valor ajustado mediante T (Ta=T), la
+ salida Q se pone a 0 (desconexión retardada).
+ Si vuelve a activarse y desactivarse la entrada Trg, se
+ inicia nuevamente el tiempo Ta.
+ A través de la entrada R (Reset) se ponen a cero el tiempo
+ Ta y la salida antes de que transcurra el tiempo Ta.
+ Si la remanencia no está activada, al producirse un corte
+ de la alimentación eléctrica la entrada Q y el tiempo ya
+ transcurrido se resetean.</p>
+        <h3>Ejercicio 1</h3>
+        <p></p>
+        <h3>Ejercicio 2</h3>
+        <p></p>
+        <h3>Ejercicio 3</h3>
+        <p></p>
+        <h2 id="3"><b>RETARDO A LA CONEXIÓN/DESCONEXIÓN</b></h2>
+        <img src="http://codigoelectronica.com/b/oscardevops/images/2019/10/im-logosoft-retardo-a-la-conexion-ejemplo-1.jpg" width="200" height="100"/>
+        <p>En el retardo a la conexión/desconexión la salida se co
+        necta tras un tiempo parametrizable y se resetea tras otro
+        tiempo parametrizable.</p>
+        <p> Cuando el estado de la entrada Trg cambia de 0 a 1, se
+ inicia el tiempo TH.
+ Si el estado de la entrada Trg permanece a 1 al menos du
+rante el tiempo parametrizado TH, la salida se pone a 1
+ cuando transcurre el tiempo TH (la salida se activa con re
+tardo con respecto a la entrada).
+ Si el estado de la entrada Trg vuelve a cambiar a cero an
+tes de que finalice el tiempo TH, el tiempo se resetea.
+ Cuando el estado de la entrada Trg vuelve a cambiar a 0,
+ se inicia el tiempo TL.
+ Si el estado de la entrada Trg permanece a 0 al menos du
+rante el tiempo parametrizado TL, la salida se pone a 0
+ cuando transcurre el tiempo TL (la salida se desactiva con
+ retardo con respecto a la entrada).
+ Si el estado de la entrada Trg vuelve a cambiar a 1 antes
+ de que finalice el tiempo TL, el tiempo se resetea.
+ Si la remanencia no está activada, al producirse un corte
+ de la alimentación de red la entrada Q y el tiempo ya trans
+currido se resetea.</p>
+        <h3>Ejercicio 1</h3>
+        <p></p>        
+        <h3>Ejercicio 2</h3>
+        <p></p>
+        <h3>Ejercicio 3</h3>
+        <p></p>
+        <input type="file"/>
+        <h4><a href="#0"><b>Volver arriba</b></a></h4>
+
+    </body>
+</html>
